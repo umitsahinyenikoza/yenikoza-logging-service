@@ -1,0 +1,35 @@
+[
+  {
+    "id": 1,
+    "username": "admin",
+    "passwordHash": "$2b$10$cisUcVOXxsNRF.njfO5rSet73ZdIU.cgiukKpXY9ul9XA41hB/lX.",
+    "name": "Ümit Şahin",
+    "role": "Administrator",
+    "email": "umitsahin@yenikoza.com",
+    "createdAt": "2025-01-01T00:00:00.000Z",
+    "lastLogin": "2025-07-10T07:54:33.954Z",
+    "active": true
+  },
+  {
+    "id": 2,
+    "username": "birolkiryigit",
+    "passwordHash": "$2b$10$KNMSLLdPTFq7K05or62JK.yFcbYG2pQ665YuHB4gL4nFENwFzqYwm",
+    "name": "Birol Kıryiğit",
+    "role": "Administrator",
+    "email": "birol_kiryigit@hotmail.com",
+    "createdAt": "2025-01-01T00:00:00.000Z",
+    "lastLogin": null,
+    "active": true
+  },
+  {
+    "id": 3,
+    "username": "ahmetsarioglu",
+    "passwordHash": "$2b$10$GYFbIWquGchSLkGrWjiE1e1m3v9Bxl/5pJiYkTJL2rLdqW46TlUIy",
+    "name": "Ahmet Sarıoğlu",
+    "role": "Administrator",
+    "email": "ahmets@yenikoza.com.tr",
+    "createdAt": "2025-01-01T00:00:00.000Z",
+    "lastLogin": null,
+    "active": true
+  }
+]
