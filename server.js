@@ -23,15 +23,25 @@ debugLog('ÇALIŞAN DOSYA:', __filename);
 // Middleware
 app.use(cors({
   origin: [
-    'http://localhost:5173',
-    'http://localhost:5174', 
-    'http://localhost:5175', 
-    'http://localhost:5176', 
-    'http://localhost:5177', 
-    'http://localhost:3000',
-    'https://yenikoza-dashboard-k23r.vercel.app'
+    "http://localhost:5173",
+    "http://localhost:5174",
+    "http://localhost:5175",
+    "http://localhost:5176",
+    "http://localhost:3000",
+    'https://yenikoza-dashboard.vercel.app',  // Vercel dashboard
+    'https://yenikoza-dashboard-k23r.vercel.app',  // Vercel dashboard
+    'https://*.vercel.app',  // Tüm Vercel subdomain'leri
+    'http://10.16.0.12:3000',    // Dashboard için
+    'http://10.16.0.12:5173',    // Vite dev server için
+    'http://10.16.0.12:5174',    // Vite dev server için
+    'http://10.16.0.12:5175',    // Vite dev server için
+    'http://10.16.0.12:5176',    // Vite dev server için
+    'http://10.16.0.12:5177',    // Vite dev server için
+    'http://10.16.0.12:3001'     // Backend'in kendi port'u
   ],
-  credentials: true
+  credentials: true,
+  methods: ['GET', 'POST', 'PUT', 'DELETE', 'OPTIONS'],
+  allowedHeaders: ['Content-Type', 'Authorization', 'X-Requested-With']
 }));
 app.use(express.json({ limit: '50mb' }));
 
